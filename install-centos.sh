@@ -1,5 +1,3 @@
-# CentOS Linux 7 (Core), logado como sudo
-
 yum update
 
 wget https://download.docker.com/linux/centos/docker-ce.repo -O /etc/yum.repos.d/docker.repo
