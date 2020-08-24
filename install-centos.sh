@@ -1,10 +1,8 @@
 # CentOS Linux 7 (Core), logado como sudo
 
-yum check-update
+yum update
 
-yum install -y yum-utils device-mapper-persistent-data lvm2
-
-yum-config-manager  https://download.docker.com/linux/centos/docker-ce.repo
+wget https://download.docker.com/linux/centos/docker-ce.repo -O /etc/yum.repos.d/docker.repo
 
 yum install docker-ce
 
