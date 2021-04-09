@@ -2,7 +2,7 @@ yum update
 
 wget https://download.docker.com/linux/centos/docker-ce.repo -O /etc/yum.repos.d/docker.repo
 
-yum install docker-ce -y
+yum install docker-ce docker-ce-cli containerd.io -y
 
 systemctl enable docker
 systemctl start docker
